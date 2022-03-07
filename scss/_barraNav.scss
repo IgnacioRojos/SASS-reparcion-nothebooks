@@ -1,0 +1,11 @@
+div{
+	ul{
+		li{
+			a{
+				color: $colorLetrasBarra;
+				font-size: 20px;
+				text-decoration: underline $colorSubrayado;
+			}
+		}
+	}
+}

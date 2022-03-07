@@ -1,0 +1,48 @@
+body {
+  background-image: linear-gradient(to bottom, greenyellow, white); }
+
+html {
+  overflow-x: hidden; }
+
+.img-fluid {
+  width: 350px; }
+
+div p {
+  font-size: 20px;
+  color: pink;
+  margin-top: 80px;
+  padding-left: 20px; }
+
+.imagen_ppp {
+  padding-left: 50px; }
+
+.cuadro {
+  padding-left: 120px;
+  margin-bottom: 80px; }
+
+div h4 {
+  color: purple; }
+
+div ul li {
+  list-style: none; }
+
+.opiniones {
+  margin-top: 110px; }
+
+div ul li a {
+  color: orange;
+  font-size: 20px;
+  text-decoration: underline black; }
+
+.titulo__footer3 {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 50px;
+  color: blue; }
+
+.texto__contacto3 {
+  padding-top: 100px;
+  color: grey; }
+
+.logo_whatsapp {
+  width: 250px; }
