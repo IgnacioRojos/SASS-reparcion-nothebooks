@@ -46,3 +46,74 @@ div ul li a {
 
 .logo_whatsapp {
   width: 250px; }
+
+.nombre1 {
+  color: red; }
+
+.nombre2 {
+  color: blue; }
+
+.nombre3 {
+  color: pink; }
+
+.nombre4 {
+  color: green; }
+
+.opinion1 {
+  color: black; }
+
+.opinion2 {
+  color: brown; }
+
+.opinion3 {
+  color: skyblue; }
+
+.opinion4 {
+  color: pink; }
+
+.logo__telefono {
+  width: 250px; }
+
+.logo__email {
+  width: 250px; }
+
+.logo__transferencia {
+  width: 250px; }
+
+.logo__mercadoPago {
+  width: 250px; }
+
+.titulo__local {
+  font-size: 50px;
+  margin-top: 40px;
+  padding-left: 20px; }
+
+.card, .tarjeta {
+  width: 150px;
+  background-color: skyblue; }
+
+.card-text, .tarjetaTexto {
+  color: white; }
+
+.tarjeta {
+  background-color: pink;
+  border: 5px solid black; }
+
+.tarjetaTexto {
+  font-size: 30px;
+  color: green; }
+
+.logo__transferencia {
+  height: 350px;
+  width: 450px;
+  background-color: green; }
+
+.mapa {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 150px;
+  margin-lefht: 70px; }
+
+.titulo__local {
+  margin-right: 50px; }

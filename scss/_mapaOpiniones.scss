@@ -1,0 +1,27 @@
+$nombreOpiniones:(
+	nombre1: red,
+	nombre2: blue,
+	nombre3: pink,
+	nombre4: green
+);
+
+@each $nom, $valor in $nombreOpiniones{
+	.#{$nom}{
+		color: $valor;
+	}
+}
+
+
+
+$respuesta:(
+	opinion1: black,
+	opinion2: brown,
+	opinion3: skyblue,
+	opinion4: pink
+);
+
+@each $opi, $valor in $respuesta{
+	.#{$opi}{
+		color:$valor;
+	}
+}

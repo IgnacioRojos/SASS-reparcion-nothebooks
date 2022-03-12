@@ -1,0 +1,67 @@
+.logo__telefono{
+	width: 250px;
+}
+.logo__email{
+	width: 250px;
+}
+.logo__transferencia{
+	width: 250px;
+}
+.logo__mercadoPago{
+	width: 250px;
+}
+
+.titulo__local{
+	font-size: 50px;
+	margin-top: 40px;
+	padding-left: 20px;
+}
+
+.card{
+	width: 150px;
+	background-color: skyblue;
+}
+
+.card-text{
+	color:white;
+}
+
+.tarjeta{
+	@extend .card;
+	background-color:pink;
+	border: 5px solid black;
+
+}
+
+.tarjetaTexto{
+	@extend .card-text;
+	font-size: 30px;
+	color: green;
+}
+
+@mixin sizes($width, $height,$color){
+	height:$height;
+	width:$width;
+	background-color: $color
+}
+
+.logo__transferencia{
+	@include sizes(450px, 350px, green);
+}
+
+@mixin centro{
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+}
+
+.mapa{
+	@include centro;
+	padding-top: 150px;
+	margin-lefht: 70px;
+
+}
+
+.titulo__local{
+	margin-right: 50px;
+}
